@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Font Awesome
+xxx:before {
+display: none;
+font-family: "Font Awesome 5 Regular";
+content: "\f1ea";
+margin-right: 10px;
+}
+
+awesome5のフリー
+&:after {
+font-family: "Font Awesome 5 Free";
+content: "\f105";
+font-weight:900;
+}
+*/
+* {
+  box-sizing: border-box; }
+
+.ie_ObjectFit {
+  object-fit: cover;
+  font-family: "object-fit: cover;"; }
+
+/* レイアウトCSS */
+body {
+  min-height: 1200px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Times New Roman", "游明朝", YuMincho,"ヒラギノ明朝 Pr6 W6","Hiragino Mincho Pro", "HGS明朝E","メイリオ", "ＭＳ Ｐ明朝","MS PMincho",Meiryo, serif;
+  font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif; }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+.wrapper {
+  padding: 60px; }
+.wrapper .content {
+  width: 1000px;
+  margin: 0 auto; }
